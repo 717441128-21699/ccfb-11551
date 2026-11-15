@@ -16,3 +16,12 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# generated TPC-H data, benchmark reports and spill temp roots
+data/
+reports/
+*.csv
+!queries/*.sql
+minisql_*/
+*.npz
+.pytest_cache/

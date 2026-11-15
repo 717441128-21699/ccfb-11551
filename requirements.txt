@@ -1,0 +1,6 @@
+# Runtime dependency of the mini SQL engine itself.
+numpy>=1.26
+
+# Used ONLY by the TPC-H generator/comparison harness (bench/), never imported
+# by the mini_sql engine or the web console.
+duckdb>=1.0
